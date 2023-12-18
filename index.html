@@ -110,7 +110,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-6 d-none d-md-block">
+                <!-- d-none d-md-block -->
+                <div class="col-sm-12 col-md-6">
                     <div class="hero-image">
                         <img src="img/heroImg.svg" alt="Hero Image">
                     </div>
@@ -246,17 +247,37 @@
     </div>
     <div class="offering_tab">
         <div class="main-tab">
-            <div class="tabs">
-                <div class="tab-button" data-tab="tab1" onclick="openTab('tab1')">Upa yoga</div>
-                <div class="tab-button" data-tab="tab2" onclick="openTab('tab2')">Angamardana</div>
-                <div class="tab-button" data-tab="tab3" onclick="openTab('tab3')">Surya Kriya</div>
-                <div class="tab-button" data-tab="tab4" onclick="openTab('tab4')">Yogasana</div>
-                <div class="tab-button" data-tab="tab5" onclick="openTab('tab5')">Bhuta Shuddhi</div>
-                <div class="tab-button" data-tab="tab6" onclick="openTab('tab6')">Jala Neti</div>
-                <div class="tab-button" data-tab="tab7" onclick="openTab('tab7')">Bhastrika</div>
-                <div class="tab-button" data-tab="tab8" onclick="openTab('tab8')">Eye care</div>
-                <div class="tab-button" data-tab="tab9" onclick="openTab('tab9')">Food and Nutrition</div>
+            <button class="left" onclick="leftScroll()"><i class="fa fa-angle-left" aria-hidden="true"></i></button>
+            <div class="tabs scroll-images">
+                <div class="tab-button" data-tab="tab1" onclick="openTab('tab1')">
+                    <h5>Upa yoga</h5>
+                </div>
+                <div class="tab-button" data-tab="tab2" onclick="openTab('tab2')">
+                    <h5>Angamardana</h5>
+                </div>
+                <div class="tab-button" data-tab="tab3" onclick="openTab('tab3')">
+                    <h5>Surya Kriya</h5>
+                </div>
+                <div class="tab-button" data-tab="tab4" onclick="openTab('tab4')">
+                    <h5>Yogasana</h5>
+                </div>
+                <div class="tab-button" data-tab="tab5" onclick="openTab('tab5')">
+                    <h5>Bhuta Shuddhi</h5>
+                </div>
+                <div class="tab-button" data-tab="tab6" onclick="openTab('tab6')">
+                    <h5>Jala Neti</h5>
+                </div>
+                <div class="tab-button" data-tab="tab7" onclick="openTab('tab7')">
+                    <h5>Bhastrika</h5>
+                </div>
+                <div class="tab-button" data-tab="tab8" onclick="openTab('tab8')">
+                    <h5>Eye care</h5>
+                </div>
+                <div class="tab-button" data-tab="tab9" onclick="openTab('tab9')">
+                    <h5>Food and Nutrition</h5>
+                </div>
             </div>
+            <button class="right" onclick="rightScroll()"><i class="fa fa-angle-right" aria-hidden="true"></i></button>
             <div class="main-tab-content">
                 <div id="tab1" class="tab-content">
                     <div class="tabContentBox">

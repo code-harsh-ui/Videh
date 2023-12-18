@@ -156,3 +156,14 @@ function openTab(tabName) {
     activeTabButton.classList.add("active");
   }
 }
+
+// Tab Scroll
+
+function leftScroll() {
+  const left = document.querySelector(".scroll-images");
+  left.scrollBy(-50, 0);
+}
+function rightScroll() {
+  const right = document.querySelector(".scroll-images");
+  right.scrollBy(50, 0);
+}
